@@ -1,0 +1,33 @@
+{
+  "name": "dnk-electrical",
+  "version": "1.0.0",
+  "description": "DNK Electrical - E-commerce website for selling electronics",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
