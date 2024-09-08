@@ -1,0 +1,26 @@
+.home {
+  text-align: center;
+  padding: 2em;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.category {
+  text-align: center;
+}
+
+.category img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.category h3 {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+}
